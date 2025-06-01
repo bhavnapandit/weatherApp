@@ -16,6 +16,7 @@ const days = [
   "Saturday",
 ];
 async function checkWeather(city_name) {
+  
   const api_key = "01b4a8ba9459b5ec419f0580288d9386";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${api_key}`;
 

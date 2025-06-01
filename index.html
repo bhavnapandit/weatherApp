@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App With JavaScript</title>
+    <!-- Latest Font Awesome CDN (Free version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-yZ9Zx0dT0/du3E4lH+vN6gY+dlE1V8I9iKZDqlgM3u7ZDFDh1N1K0P7cwOqkGzFJgBDGUMX49E61sZYfT6yp0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="search-box">
                 <input type="text" placeholder="Enter your location" class="input-box">
+                <button id="searchBtn" style="background: none; border: none; cursor: pointer;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 24 24">
+                        <path
+                            d="M10 2a8 8 0 105.293 14.293l4.707 4.707 1.414-1.414-4.707-4.707A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z" />
+                    </svg>
+                </button>
 
-                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
             </div>
         </div>
 
@@ -53,7 +65,7 @@
         </div>
     </div>
 
-    <script  src="script.js"></script>
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
 </body>
 
